@@ -2,5 +2,4 @@
 
 sudo bash ./scripts/install-ubuntu-desktop.sh
 sudo bash ./scripts/install-xrdp.sh -g yes -s yes
-
-
+sudo reboot
