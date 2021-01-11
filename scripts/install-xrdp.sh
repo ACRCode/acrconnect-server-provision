@@ -311,6 +311,10 @@ elif [[ "$version" = *"Ubuntu 18.10"* ]];
 then
 /bin/echo -e "\e[1;32m       |-| Ubuntu Version : $version\e[0m"
 echo
+elif [[ "$version" = *"Ubuntu 20.04"* ]];
+then
+/bin/echo -e "\e[1;32m       |-| Ubuntu Version : $version\e[0m"
+echo
 else
 /bin/echo -e "\e[1;31m  !------------------------------------------------------------!\e[0m"
 /bin/echo -e "\e[1;31m  ! Your system is not running Ubuntu 18.04 Edition and later  !\e[0m"
